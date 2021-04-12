@@ -24,3 +24,6 @@ Route::get('/details', 'PagesController@details')->name('details');
 Route::get('/wishlist', 'PagesController@wishlist')->name('wishlist');
 Route::get('/searchlist', 'PagesController@searchlist')->name('searchlist');
 
+//Admin
+Route::get('/add_product', 'ProductController@add_product')->name('add_product');
+
