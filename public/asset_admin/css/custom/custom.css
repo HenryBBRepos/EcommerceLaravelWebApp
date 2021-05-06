@@ -1,0 +1,24 @@
+.brand-sidebar{
+	background-color: #ef1e1e;
+}
+.sidenav{
+	background-color: #ef1e1e;
+}
+.sidenav li a{
+	color: #ffffff;
+}
+.sidenav li>a li>a>[class*=mdi-], .sidenav li>a>[class^=mdi-], .sidenav li>a>i, .sidenav li>a>i.material-icons{
+	color: #ffffff;
+}
+.brand-sidebar .logo-wrapper a.navbar-toggler i{
+	color: #ffffff;
+}
+.navbar-fixed .navbar-main {
+    padding: 0 15px;
+    background: #636363!important;
+}
+
+footer.page-footer {
+    padding-top: 1px;
+    background: #8a8a8a!important;
+}

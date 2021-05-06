@@ -1,0 +1,453 @@
+<!-- Product Single Item -->
+                    <div class="product-inner-item">
+                        <article class="list-product mb-30px">
+                            <div class="img-block">
+                                <a href="single-product.html" class="thumbnail">
+                                    <img class="first-img" src="assets/images/product-image/furniture/10.jpg" alt="" />
+                                    <img class="second-img" src="assets/images/product-image/furniture/9.jpg" alt="" />
+                                </a>
+                                <div class="add-to-link">
+                                    <ul>
+                                        <li>
+                                            <a href="#" title="Add to Cart"><i class="ion-bag"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="wishlist.html" title="wishlist"><i class="ion-android-favorite-outline"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="compare.html" title="Compare"><i class="ion-ios-shuffle-strong"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#" data-link-action="quickview" title="Quick view" data-toggle="modal" data-target="#exampleModal"><i class="ion-ios-search-strong"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <ul class="product-flag">
+                                <li class="new">New</li>
+                            </ul>
+                            <div class="product-decs">
+                                <a class="inner-link" href="shop-4-column.html"><span>Executive Chair</span></a>
+                                <h2><a href="single-product.html" class="product-link">Office relax Chair...</a></h2>
+                                <div class="rating-product">
+                                    <i class="ion-android-star"></i>
+                                    <i class="ion-android-star"></i>
+                                    <i class="ion-android-star"></i>
+                                    <i class="ion-android-star"></i>
+                                    <i class="ion-android-star"></i>
+                                </div>
+                                <div class="pricing-meta">
+                                    <ul>
+                                        <li class="old-price not-cut">₵29.90</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="list-product">
+                            <div class="img-block">
+                                <a href="single-product.html" class="thumbnail">
+                                    <img class="first-img" src="assets/images/product-image/furniture/16.jpg" alt="" />
+                                    <img class="second-img" src="assets/images/product-image/furniture/16.jpg" alt="" />
+                                </a>
+                                <div class="add-to-link">
+                                    <ul>
+                                        <li>
+                                            <a href="#" title="Add to Cart"><i class="ion-bag"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="wishlist.html" title="wishlist"><i class="ion-android-favorite-outline"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="compare.html" title="Compare"><i class="ion-ios-shuffle-strong"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#" data-link-action="quickview" title="Quick view" data-toggle="modal" data-target="#exampleModal"><i class="ion-ios-search-strong"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <ul class="product-flag">
+                                <li class="new">New</li>
+                            </ul>
+                            <div class="product-decs">
+                                <a class="inner-link" href="shop-4-column.html"><span>Room Furniture</span></a>
+                                <h2><a href="single-product.html" class="product-link">Bed with Wardrobe</a></h2>
+                                <div class="rating-product">
+                                    <i class="ion-android-star"></i>
+                                    <i class="ion-android-star"></i>
+                                    <i class="ion-android-star"></i>
+                                    <i class="ion-android-star"></i>
+                                    <i class="ion-android-star"></i>
+                                </div>
+                                <div class="pricing-meta">
+                                    <ul>
+                                        <li class="old-price not-cut">₵29.90</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <!-- Product Single Item -->
+                    <div class="product-inner-item">
+                        <article class="list-product mb-30px">
+                            <div class="img-block">
+                                <a href="single-product.html" class="thumbnail">
+                                    <img class="first-img" src="assets/images/product-image/furniture/9.jpg" alt="" />
+                                    <img class="second-img" src="assets/images/product-image/furniture/9.jpg" alt="" />
+                                </a>
+                                <div class="add-to-link">
+                                    <ul>
+                                        <li>
+                                            <a href="#" title="Add to Cart"><i class="ion-bag"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="wishlist.html" title="wishlist"><i class="ion-android-favorite-outline"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="compare.html" title="Compare"><i class="ion-ios-shuffle-strong"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#" data-link-action="quickview" title="Quick view" data-toggle="modal" data-target="#exampleModal"><i class="ion-ios-search-strong"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <ul class="product-flag">
+                                <li class="new">New</li>
+                            </ul>
+                            <div class="product-decs">
+                                <a class="inner-link" href="shop-4-column.html"><span>Coffe Table</span></a>
+                                <h2><a href="single-product.html" class="product-link">Classic Coffe Table</a></h2>
+                                <div class="rating-product">
+                                    <i class="ion-android-star"></i>
+                                    <i class="ion-android-star"></i>
+                                    <i class="ion-android-star"></i>
+                                    <i class="ion-android-star"></i>
+                                    <i class="ion-android-star"></i>
+                                </div>
+                                <div class="pricing-meta">
+                                    <ul>
+                                        <li class="old-price">₵35.90</li>
+                                        <li class="current-price">₵34.11</li>
+                                        <li class="discount-price">-5%</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="list-product">
+                            <div class="img-block">
+                                <a href="single-product.html" class="thumbnail">
+                                    <img class="first-img" src="assets/images/product-image/furniture/11.jpg" alt="" />
+                                    <img class="second-img" src="assets/images/product-image/furniture/12.jpg" alt="" />
+                                </a>
+                                <div class="add-to-link">
+                                    <ul>
+                                        <li>
+                                            <a href="#" title="Add to Cart"><i class="ion-bag"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="wishlist.html" title="wishlist"><i class="ion-android-favorite-outline"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="compare.html" title="Compare"><i class="ion-ios-shuffle-strong"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#" data-link-action="quickview" title="Quick view" data-toggle="modal" data-target="#exampleModal"><i class="ion-ios-search-strong"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <ul class="product-flag">
+                                <li class="new">New</li>
+                            </ul>
+                            <div class="product-decs">
+                                <a class="inner-link" href="shop-4-column.html"><span>Room Furniture</span></a>
+                                <h2><a href="single-product.html" class="product-link">Hall furniture..</a></h2>
+                                <div class="rating-product">
+                                    <i class="ion-android-star"></i>
+                                    <i class="ion-android-star"></i>
+                                    <i class="ion-android-star"></i>
+                                    <i class="ion-android-star"></i>
+                                    <i class="ion-android-star"></i>
+                                </div>
+                                <div class="pricing-meta">
+                                    <ul>
+                                        <li class="old-price">₵35.90</li>
+                                        <li class="current-price">₵34.11</li>
+                                        <li class="discount-price">-5%</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <!-- Product Single Item -->
+                    <div class="product-inner-item">
+                        <article class="list-product mb-30px">
+                            <div class="img-block">
+                                <a href="single-product.html" class="thumbnail">
+                                    <img class="first-img" src="assets/images/product-image/furniture/21.jpg" alt="" />
+                                    <img class="second-img" src="assets/images/product-image/furniture/17.jpg" alt="" />
+                                </a>
+                                <div class="add-to-link">
+                                    <ul>
+                                        <li>
+                                            <a href="#" title="Add to Cart"><i class="ion-bag"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="wishlist.html" title="wishlist"><i class="ion-android-favorite-outline"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="compare.html" title="Compare"><i class="ion-ios-shuffle-strong"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#" data-link-action="quickview" title="Quick view" data-toggle="modal" data-target="#exampleModal"><i class="ion-ios-search-strong"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <ul class="product-flag">
+                                <li class="new">New</li>
+                            </ul>
+                            <div class="product-decs">
+                                <a class="inner-link" href="shop-4-column.html"><span>Room furniture</span></a>
+                                <h2><a href="single-product.html" class="product-link">Center Table for you hall..</a></h2>
+                                <div class="rating-product">
+                                    <i class="ion-android-star"></i>
+                                    <i class="ion-android-star"></i>
+                                    <i class="ion-android-star"></i>
+                                    <i class="ion-android-star"></i>
+                                    <i class="ion-android-star"></i>
+                                </div>
+                                <div class="pricing-meta">
+                                    <ul>
+                                        <li class="old-price">₵11.90</li>
+                                        <li class="current-price">₵10.12</li>
+                                        <li class="discount-price">-15%</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="list-product">
+                            <div class="img-block">
+                                <a href="single-product.html" class="thumbnail">
+                                    <img class="first-img" src="assets/images/product-image/furniture/22.jpg" alt="" />
+                                    <img class="second-img" src="assets/images/product-image/furniture/22.jpg" alt="" />
+                                </a>
+                                <div class="add-to-link">
+                                    <ul>
+                                        <li>
+                                            <a href="#" title="Add to Cart"><i class="ion-bag"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="wishlist.html" title="wishlist"><i class="ion-android-favorite-outline"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="compare.html" title="Compare"><i class="ion-ios-shuffle-strong"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#" data-link-action="quickview" title="Quick view" data-toggle="modal" data-target="#exampleModal"><i class="ion-ios-search-strong"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <ul class="product-flag">
+                                <li class="new">New</li>
+                            </ul>
+                            <div class="product-decs">
+                                <a class="inner-link" href="shop-4-column.html"><span>Office Furniture</span></a>
+                                <h2><a href="single-product.html" class="product-link">Reception Seats...</a></h2>
+                                <div class="rating-product">
+                                    <i class="ion-android-star"></i>
+                                    <i class="ion-android-star"></i>
+                                    <i class="ion-android-star"></i>
+                                    <i class="ion-android-star"></i>
+                                    <i class="ion-android-star"></i>
+                                </div>
+                                <div class="pricing-meta">
+                                    <ul>
+                                        <li class="old-price not-cut">₵19.90</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <!-- Product Single Item -->
+                    <div class="product-inner-item">
+                        <article class="list-product mb-30px">
+                            <div class="img-block">
+                                <a href="single-product.html" class="thumbnail">
+                                    <img class="first-img" src="assets/images/product-image/furniture/13.jpg" alt="" />
+                                    <img class="second-img" src="assets/images/product-image/furniture/13.jpg" alt="" />
+                                </a>
+                                <div class="add-to-link">
+                                    <ul>
+                                        <li>
+                                            <a href="#" title="Add to Cart"><i class="ion-bag"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="wishlist.html" title="wishlist"><i class="ion-android-favorite-outline"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="compare.html" title="Compare"><i class="ion-ios-shuffle-strong"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#" data-link-action="quickview" title="Quick view" data-toggle="modal" data-target="#exampleModal"><i class="ion-ios-search-strong"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <ul class="product-flag">
+                                <li class="new">New</li>
+                            </ul>
+                            <div class="product-decs">
+                                <a class="inner-link" href="shop-4-column.html"><span>Cabinets</span></a>
+                                <h2><a href="single-product.html" class="product-link">Cabinets...</a></h2>
+                                <div class="rating-product">
+                                    <i class="ion-android-star"></i>
+                                    <i class="ion-android-star"></i>
+                                    <i class="ion-android-star"></i>
+                                    <i class="ion-android-star"></i>
+                                    <i class="ion-android-star"></i>
+                                </div>
+                                <div class="pricing-meta">
+                                    <ul>
+                                        <li class="old-price not-cut">₵11.90</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="list-product">
+                            <div class="img-block">
+                                <a href="single-product.html" class="thumbnail">
+                                    <img class="first-img" src="assets/images/product-image/furniture/19.jpg" alt="" />
+                                    <img class="second-img" src="assets/images/product-image/furniture/15.jpg" alt="" />
+                                </a>
+                                <div class="add-to-link">
+                                    <ul>
+                                        <li>
+                                            <a href="#" title="Add to Cart"><i class="ion-bag"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="wishlist.html" title="wishlist"><i class="ion-android-favorite-outline"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="compare.html" title="Compare"><i class="ion-ios-shuffle-strong"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#" data-link-action="quickview" title="Quick view" data-toggle="modal" data-target="#exampleModal"><i class="ion-ios-search-strong"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <ul class="product-flag">
+                                <li class="new">New</li>
+                            </ul>
+                            <div class="product-decs">
+                                <a class="inner-link" href="shop-4-column.html"><span>Coffe Table</span></a>
+                                <h2><a href="single-product.html" class="product-link">Coffe Table</a></h2>
+                                <div class="rating-product">
+                                    <i class="ion-android-star"></i>
+                                    <i class="ion-android-star"></i>
+                                    <i class="ion-android-star"></i>
+                                    <i class="ion-android-star"></i>
+                                    <i class="ion-android-star"></i>
+                                </div>
+                                <div class="pricing-meta">
+                                    <ul>
+                                        <li class="old-price">₵18.90</li>
+                                        <li class="current-price">₵15.11</li>
+                                        <li class="discount-price">-20%</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <!-- Product Single Item -->
+                    <div class="product-inner-item">
+                        <article class="list-product mb-30px">
+                            <div class="img-block">
+                                <a href="single-product.html" class="thumbnail">
+                                    <img class="first-img" src="assets/images/product-image/furniture/14.jpg" alt="" />
+                                    <img class="second-img" src="assets/images/product-image/furniture/14.jpg" alt="" />
+                                </a>
+                                <div class="add-to-link">
+                                    <ul>
+                                        <li>
+                                            <a href="#" title="Add to Cart"><i class="ion-bag"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="wishlist.html" title="wishlist"><i class="ion-android-favorite-outline"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="compare.html" title="Compare"><i class="ion-ios-shuffle-strong"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#" data-link-action="quickview" title="Quick view" data-toggle="modal" data-target="#exampleModal"><i class="ion-ios-search-strong"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <ul class="product-flag">
+                                <li class="new">New</li>
+                            </ul>
+                            <div class="product-decs">
+                                <a class="inner-link" href="shop-4-column.html"><span>Wardrobes</span></a>
+                                <h2><a href="single-product.html" class="product-link">Wardrobes</a></h2>
+                                <div class="rating-product">
+                                    <i class="ion-android-star"></i>
+                                    <i class="ion-android-star"></i>
+                                    <i class="ion-android-star"></i>
+                                    <i class="ion-android-star"></i>
+                                    <i class="ion-android-star"></i>
+                                </div>
+                                <div class="pricing-meta">
+                                    <ul>
+                                        <li class="old-price not-cut">₵18.90</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="list-product">
+                            <div class="img-block">
+                                <a href="single-product.html" class="thumbnail">
+                                    <img class="first-img" src="assets/images/product-image/furniture/20.jpg" alt="" />
+                                    <img class="second-img" src="assets/images/product-image/furniture/20.jpg" alt="" />
+                                </a>
+                                <div class="add-to-link">
+                                    <ul>
+                                        <li>
+                                            <a href="#" title="Add to Cart"><i class="ion-bag"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="wishlist.html" title="wishlist"><i class="ion-android-favorite-outline"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="compare.html" title="Compare"><i class="ion-ios-shuffle-strong"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#" data-link-action="quickview" title="Quick view" data-toggle="modal" data-target="#exampleModal"><i class="ion-ios-search-strong"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <ul class="product-flag">
+                                <li class="new">New</li>
+                            </ul>
+                            <div class="product-decs">
+                                <a class="inner-link" href="shop-4-column.html"><span>Room Furniture</span></a>
+                                <h2><a href="single-product.html" class="product-link">Center Table</a></h2>
+                                <div class="rating-product">
+                                    <i class="ion-android-star"></i>
+                                    <i class="ion-android-star"></i>
+                                    <i class="ion-android-star"></i>
+                                    <i class="ion-android-star"></i>
+                                    <i class="ion-android-star"></i>
+                                </div>
+                                <div class="pricing-meta">
+                                    <ul>
+                                        <li class="old-price not-cut">₵18.90</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
