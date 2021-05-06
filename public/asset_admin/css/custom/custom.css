@@ -22,3 +22,13 @@ footer.page-footer {
     padding-top: 1px;
     background: #8a8a8a69!important;
 }
+
+.logo-text{
+	color: #ffffff;
+	font-weight: 800;
+
+}
+
+.gradient-45deg-indigo-purple{
+	background: #c10101!important;
+}

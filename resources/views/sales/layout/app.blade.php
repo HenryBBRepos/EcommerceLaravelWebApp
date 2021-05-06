@@ -7,24 +7,24 @@
     <link rel="shortcut icon" type="image/x-icon" href="../assets/images/favicon/favicon.png" />
 
 <head>
-   @include('admin.layout.styles')
+   @include('sales.layout.styles')
   </head>
   <!-- END: Head-->
   <body class="vertical-layout vertical-menu-collapsible page-header-dark vertical-modern-menu preload-transitions 2-columns" data-open="click" data-menu="vertical-modern-menu" data-col="2-columns">
 
     <!-- BEGIN: Header-->
-    @include('admin.layout.header')
+    @include('sales.layout.header')
     <!-- END: Header-->
    
     <!-- BEGIN: SideNav-->
-   @include('admin.layout.sidebar')
+   @include('sales.layout.sidebar')
     <!-- END: SideNav-->
 
     @yield('content')
 
     <!-- Theme Customizer -->
 
->@include('admin.layout.scripts')
+>@include('sales.layout.scripts')
   </body>
 
 

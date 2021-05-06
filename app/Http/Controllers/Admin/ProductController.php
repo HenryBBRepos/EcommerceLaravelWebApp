@@ -56,5 +56,5 @@ class ProductController extends Controller
 
   }
 
- 
+
 }

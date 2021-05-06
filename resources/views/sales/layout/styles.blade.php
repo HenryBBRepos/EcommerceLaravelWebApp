@@ -12,8 +12,3 @@
     <!-- BEGIN: Custom CSS-->
     <link rel="stylesheet" type="text/css" href="asset_admin/css/custom/custom.css">
     <!-- END: Custom CSS-->
-
-    <link rel="stylesheet" type="text/css" href="asset_admin/vendors/flag-icon/css/flag-icon.min.css">
-    <link rel="stylesheet" type="text/css" href="asset_admin/vendors/data-tables/css/jquery.dataTables.min.css">
-    <link rel="stylesheet" type="text/css" href="asset_admin/vendors/data-tables/extensions/responsive/css/responsive.dataTables.min.css">
-    <link rel="stylesheet" type="text/css" href="asset_admin/vendors/data-tables/css/select.dataTables.min.css">

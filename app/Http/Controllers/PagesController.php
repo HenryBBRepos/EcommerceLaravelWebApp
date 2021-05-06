@@ -29,5 +29,13 @@ class PagesController extends Controller
     public function searchlist(){
         return view('pages.searchlist');
     }
+    public function main(){
+        return view('admin.pages.main');
+    }
+
+    
+  public function all_product(){
+    return view('admin.pages.all_product');
+}
 
 }
