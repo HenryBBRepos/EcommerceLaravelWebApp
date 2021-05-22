@@ -83,7 +83,7 @@
                                         <input class="cart-plus-minus-box" type="text" name="qtybutton" value="1" />
                                     </div>
                                     <div class="pro-details-cart btn-hover">
-                                        <a href="https:/"> Purchase Now</a>
+                                        <a href="https://paystack.com/pay/kbs-payment"> Purchase Now</a>
                                     </div>
                                 </div>
                                 <!-- <div class="pro-details-wish-com">

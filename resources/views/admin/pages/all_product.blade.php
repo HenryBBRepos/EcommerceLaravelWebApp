@@ -54,28 +54,23 @@
                     <th class="sorting" tabindex="0" aria-controls="page-length-option" rowspan="1" colspan="1" style="width: 90px;" aria-label="Age: activate to sort column ascending">Action</th>
                  </thead>
                 <tbody>
-                  
-                <tr role="row" class="odd">
-                    <td tabindex="0" class="sorting_1">Office Furniture</td>
-                    <td>New office furniture for any...</td>
-                    <td>GH1000</td>
-                    <td>
-                    <i class="material-icons dp48">delete</i>
-                    <i class="material-icons dp48">edit</i>
-                    <i class="material-icons dp48">visibility</i>
-                  </td>
-                </tr>
-                <tr role="row" class="odd">
-                    <td tabindex="0" class="sorting_1">Office Furniture</td>
-                    <td>New office furniture for any...</td>
-                    <td>GH1000</td>
-                    <td>
-                    <i class="material-icons dp48">delete</i>
-                    <i class="material-icons dp48">edit</i>
-                    <i class="material-icons dp48">visibility</i>
-                  </td>
-                </tr>
-                 </tbody>
+                  @foreach($products as $product)
+                    
+                    <tr role="row" class="odd">
+                        <td tabindex="0" class="sorting_1">{{$product->product_name}}</td>
+                        <td>
+                        {!!strlen($product->product_description) > 10 ? substr($product->product_description,0,20) : $product->product_description!!}
+    
+                        </td>
+                        <td>GH₵{{$product->current_price}}</td>
+                        <td>
+                        <i class="material-icons dp48">delete</i>
+                        <i class="material-icons dp48">edit</i>
+                        <i class="material-icons dp48">visibility</i>
+                      </td>
+                    </tr>
+                  @endforeach
+                </tbody>
                
               </table><div class="dataTables_info" id="page-length-option_info" role="status" aria-live="polite">Showing 1 to 5 entries</div><div class="dataTables_paginate paging_simple_numbers" id="page-length-option_paginate"><a class="paginate_button previous disabled" aria-controls="page-length-option" data-dt-idx="0" tabindex="-1" id="page-length-option_previous">Previous</a><span><a class="paginate_button current" aria-controls="page-length-option" data-dt-idx="1" tabindex="0">1</a><a class="paginate_button " aria-controls="page-length-option" data-dt-idx="2" tabindex="0">2</a><a class="paginate_button " aria-controls="page-length-option" data-dt-idx="3" tabindex="0">3</a><a class="paginate_button " aria-controls="page-length-option" data-dt-idx="4" tabindex="0">4</a>
             </span>
@@ -92,4 +87,6 @@
         </div>
       </div>
     </div>
+
+    
 @endsection

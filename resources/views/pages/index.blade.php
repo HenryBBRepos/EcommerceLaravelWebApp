@@ -244,8 +244,11 @@
                                     <li class="new">New</li>
                                 </ul>
                                 <div class="product-decs text-center">
-                                    <a class="inner-link" href="shop-4-column.html"><span>{{$product->product_name}}</span></a>
-                                    <h2><a href="single-product.html" class="product-link">{{$product->product_description}}</a></h2>
+                                    <a class="inner-link" href="{{route('product_detail',[ $product->id])}}"><span>{{$product->product_name}}</span></a>
+                                    <h2><a href="{{route('product_detail',[ $product->id])}}" class="product-link">
+                                    {!!strlen($product->product_description) > 10 ? substr($product->product_description,0,20) : $product->product_description!!}
+                                    
+                                    </a></h2>
                                     <div class="rating-product">
                                         <i class="ion-android-star"></i>
                                         <i class="ion-android-star"></i>
@@ -255,7 +258,7 @@
                                     </div>
                                     <div class="pricing-meta">
                                         <ul>
-                                            <li class="old-price">₵{{$product->previous_price}}</li>
+                                            <li class="old-price">GH₵{{$product->previous_price}}</li>
                                             <li class="current-price">₵{{$product->current_price}}</li>
                                             <li class="discount-price">-10%</li>
                                         </ul>
@@ -346,7 +349,7 @@
                                 </div>
                                 <div class="pricing-meta">
                                     <ul>
-                                        <li class="old-price">₵18.90</li>
+                                        <li class="old-price">GH₵18.90</li>
                                         <li class="current-price">₵34.21</li>
                                         <li class="discount-price">-5%</li>
                                     </ul>

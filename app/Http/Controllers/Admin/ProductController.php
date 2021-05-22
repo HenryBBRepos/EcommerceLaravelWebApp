@@ -9,6 +9,7 @@ use Illuminate\Http\UploadedFile;
 
 
 
+
 class ProductController extends Controller
 {
 
@@ -53,8 +54,20 @@ class ProductController extends Controller
       $filename = "kbs_img-" . random_int(3000, 10000000);
       $file =  $request->file('product_image');
       return $file->storeAs($folder, $filename . "." . $file->getClientOriginalExtension());
+      
 
   }
 
+
+
+  public function show(){
+    $products = Product::all();
+     return view('admin.pages.all_product', ['products' => $products]);
+ }
+
+ public function dashboard(){
+    return view('admin.pages.dashboard');
+}
+  
 
 }

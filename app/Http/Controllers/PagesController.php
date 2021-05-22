@@ -1,7 +1,6 @@
 <?php
 
 namespace App\Http\Controllers;
-
 use Illuminate\Http\Request;
 use App\Models\Product;
 
@@ -29,13 +28,17 @@ class PagesController extends Controller
     public function searchlist(){
         return view('pages.searchlist');
     }
-    public function main(){
-        return view('admin.pages.main');
+
+    public function all_product(){
+        return view('admin.pages.all_product');
     }
 
-    
-  public function all_product(){
-    return view('admin.pages.all_product');
-}
+    public function signup(){
+        return view('pages.signup');
+    }
+
+    public function login(){
+        return view('pages.login');
+    }
 
 }

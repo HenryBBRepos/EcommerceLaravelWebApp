@@ -18,20 +18,20 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
-Route::get('/', 'PagesController@index')->name('main');
+Route::get('/', 'PagesController@index')->name('index');
 Route::get('/cart', 'PagesController@cart')->name('cart');
 Route::get('/checkout', 'PagesController@checkout')->name('checkout');
 Route::get('/product_detail', 'PagesController@product_detail')->name('product_detail');
 Route::get('/wishlist', 'PagesController@wishlist')->name('wishlist');
 Route::get('/searchlist', 'PagesController@searchlist')->name('searchlist');
-Route::get('/main', 'PagesController@main')->name('main');
 Route::get('/all_product', 'PagesController@all_product')->name('all_product');
-
-
+Route::get('/signup', 'PagesController@signup')->name('signup');
+Route::get('/login', 'PagesController@login')->name('login');
 
 //Admin
 Route::get('/add_product', 'ProductController@add_product')->name('add_product');
 Route::post('store', 'Admin\ProductController@store')->name('product.store');
+Route::get('/all_product', 'Admin\ProductController@show')->name('all_product');
 Route::get('/{id}', 'ProductController@show')->name('product_detail');
-Route::get('/dashboard', 'ProductController@dashboard')->name('dashboard');
+Route::get('/dashboard', 'Admin\PagesController@dashboard')->name('dashboard');
 

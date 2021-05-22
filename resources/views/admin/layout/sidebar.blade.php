@@ -4,14 +4,14 @@
           <span class="logo-text hide-on-med-and-down">Kingdom Admin</span></a><a class="navbar-toggler" href="#"><i class="material-icons">radio_button_checked</i></a></h1>
       </div>
       <ul class="sidenav leftside-navigation  sidenav-fixed menu-shadow ps ps--active-y" id="slide-out" data-menu="menu-navigation" data-collapsible="menu-accordion" style="transform: translateX(0px);">
-        <li class="bold"><a class=" waves-effect waves-cyan " href="JavaScript:void(0)" tabindex="0"><i class="material-icons">settings_input_svideo</i><span class="menu-title" data-i18n="Dashboard">Dashboard</span>
+        <li class="bold"><a  href="{{route('dashboard')}}" class=" waves-effect waves-cyan " href="JavaScript:void(0)" tabindex="0"><i class="material-icons">settings_input_svideo</i><span class="menu-title" data-i18n="Dashboard">Dashboard</span>
       </a>
          
         </li>
 
         <li class="navigation-header"><a class="navigation-header-text">Product</a><i class="navigation-header-icon material-icons">more_horiz</i>
         </li>
-        <li class="bold"><a class="waves-effect waves-cyan " href="#"><i class="material-icons">mail_outline</i><span class="menu-title" data-i18n="Mail">Add product</span></a>
+        <li class="bold"><a class="waves-effect waves-cyan " href="{{route('add_product')}}"><i class="material-icons">mail_outline</i><span class="menu-title" data-i18n="Mail">Add product</span></a>
         </li>
         <li class="bold"><a class="waves-effect waves-cyan " href="#"><i class="material-icons">chat_bubble_outline</i><span class="menu-title" data-i18n="Chat">View Product</span></a>
         </li>

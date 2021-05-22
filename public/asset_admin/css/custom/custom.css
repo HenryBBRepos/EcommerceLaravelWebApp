@@ -32,3 +32,10 @@ footer.page-footer {
 .gradient-45deg-indigo-purple{
 	background: #c10101!important;
 }
+table.dataTable.stripe tbody tr.odd, table.dataTable.display tbody tr.odd{
+	background-color: #ffffff!important;
+}
+table.dataTable.display tbody tr.odd>.sorting_1, table.dataTable.order-column.stripe tbody tr.odd>.sorting_1{
+	background-color: #ffffff!important;
+
+}
