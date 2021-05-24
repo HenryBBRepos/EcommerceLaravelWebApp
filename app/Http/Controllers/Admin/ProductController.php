@@ -59,7 +59,6 @@ class ProductController extends Controller
   }
 
 
-
   public function show(){
     $products = Product::all();
      return view('admin.pages.all_product', ['products' => $products]);
@@ -68,6 +67,10 @@ class ProductController extends Controller
  public function dashboard(){
     return view('admin.pages.dashboard');
 }
+
+// public function home(){
+//     return view('admin.pages.home');
+// }
   
 
 }

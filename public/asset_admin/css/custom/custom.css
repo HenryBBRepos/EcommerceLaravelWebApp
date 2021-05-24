@@ -39,3 +39,49 @@ table.dataTable.display tbody tr.odd>.sorting_1, table.dataTable.order-column.st
 	background-color: #ffffff!important;
 
 }
+.cyan {
+    background-color: #ef1e1e!important;
+}
+.gradient-45deg-light-blue-cyan {
+    background: -webkit-linear-gradient(
+45deg
+,#0288d1,#0288d1)!important;
+    background: linear-gradient(
+45deg
+,#0288d1,#058ad2)!important;
+}
+
+.gradient-45deg-red-pink {
+    background: -webkit-linear-gradient(
+45deg
+,#c10101,#c10101)!important;
+    background: linear-gradient(
+45deg
+,#ef1e1e,#ef1e1e)!important;
+}
+
+.gradient-45deg-amber-amber {
+    background: -webkit-linear-gradient(
+45deg
+,#ff6f00,#ffca28)!important;
+    background: linear-gradient(
+45deg
+,#ff6f00,#ff7102)!important;
+}
+.gradient-45deg-green-teal {
+    background: -webkit-linear-gradient(
+45deg
+,#43a047,#1de9b6)!important;
+    background: linear-gradient(
+45deg
+,#43a047,#42a44e)!important;
+}
+
+.gradient-45deg-purple-deep-orange {
+    background: -webkit-linear-gradient(
+45deg
+,#8e24aa,#ff6e40)!important;
+    background: linear-gradient(
+45deg
+,#f02020,#ef1f1f)!important;
+}

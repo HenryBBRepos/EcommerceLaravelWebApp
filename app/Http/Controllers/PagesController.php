@@ -32,10 +32,14 @@ class PagesController extends Controller
     public function all_product(){
         return view('admin.pages.all_product');
     }
+    public function dashboard(){
+        return view('admin.pages.dashboard');
 
-    public function signup(){
-        return view('pages.signup');
     }
+
+    // public function signup(){
+    //     return view('pages.signup');
+    // }
 
     public function login(){
         return view('pages.login');

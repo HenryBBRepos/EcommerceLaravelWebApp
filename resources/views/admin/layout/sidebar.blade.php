@@ -4,31 +4,31 @@
           <span class="logo-text hide-on-med-and-down">Kingdom Admin</span></a><a class="navbar-toggler" href="#"><i class="material-icons">radio_button_checked</i></a></h1>
       </div>
       <ul class="sidenav leftside-navigation  sidenav-fixed menu-shadow ps ps--active-y" id="slide-out" data-menu="menu-navigation" data-collapsible="menu-accordion" style="transform: translateX(0px);">
-        <li class="bold"><a  href="{{route('dashboard')}}" class=" waves-effect waves-cyan " href="JavaScript:void(0)" tabindex="0"><i class="material-icons">settings_input_svideo</i><span class="menu-title" data-i18n="Dashboard">Dashboard</span>
+        <li class="bold"><a  href="{{route('dashboard')}}" class=" waves-effect waves-cyan " href="JavaScript:void(0)" tabindex="0"><i class="material-icons">dashboard</i><span class="menu-title" data-i18n="Dashboard">Dashboard</span>
       </a>
          
         </li>
 
         <li class="navigation-header"><a class="navigation-header-text">Product</a><i class="navigation-header-icon material-icons">more_horiz</i>
         </li>
-        <li class="bold"><a class="waves-effect waves-cyan " href="{{route('add_product')}}"><i class="material-icons">mail_outline</i><span class="menu-title" data-i18n="Mail">Add product</span></a>
+        <li class="bold"><a class="waves-effect waves-cyan " href="{{route('add_product')}}"><i class="material-icons">add</i><span class="menu-title" data-i18n="Mail">Add product</span></a>
         </li>
-        <li class="bold"><a class="waves-effect waves-cyan " href="#"><i class="material-icons">chat_bubble_outline</i><span class="menu-title" data-i18n="Chat">View Product</span></a>
+        <li class="bold"><a class="waves-effect waves-cyan " href="{{route('all_product')}}"><i class="material-icons">view_list</i><span class="menu-title" data-i18n="Chat">View Product</span></a>
         </li>
-        <li class="bold"><a class="waves-effect waves-cyan " href="#"><i class="material-icons">check</i><span class="menu-title" data-i18n="ToDo">Purchased Product</span></a>
+        <li class="bold"><a class="waves-effect waves-cyan " href="#"><i class="material-icons">view_stream</i><span class="menu-title" data-i18n="ToDo">Purchased Product</span></a>
         </li>
-        <li class="bold"><a class="waves-effect waves-cyan " href="#"><i class="material-icons">format_list_bulleted</i><span class="menu-title" data-i18n="Kanban">Approved product</span></a>
+        <li class="bold"><a class="waves-effect waves-cyan " href="#"><i class="material-icons">check_circle</i><span class="menu-title" data-i18n="Kanban">Approved product</span></a>
         </li>
         <li class="navigation-header"><a class="navigation-header-text">Payment & transactions</a><i class="navigation-header-icon material-icons">more_horiz</i>
         </li>
-        <li class="bold"><a class="waves-effect waves-cyan " href="#"><i class="material-icons">mail_outline</i><span class="menu-title" data-i18n="Mail">Transaction complemented</span></a>
+        <li class="bold"><a class="waves-effect waves-cyan " href="#"><i class="material-icons">confirmation_number</i><span class="menu-title" data-i18n="Mail">Transaction complemented</span></a>
         </li>
-        <li class="bold"><a class="waves-effect waves-cyan " href="#"><i class="material-icons">chat_bubble_outline</i><span class="menu-title" data-i18n="Chat">Pending transaction</span></a>
+        <li class="bold"><a class="waves-effect waves-cyan " href="#"><i class="material-icons">credit_card</i><span class="menu-title" data-i18n="Chat">Pending transaction</span></a>
         </li>
 
         <li class="navigation-header"><a class="navigation-header-text">Customers</a><i class="navigation-header-icon material-icons">more_horiz</i>
         </li>
-        <li class="bold"><a class="waves-effect waves-cyan " href="#"><i class="material-icons">mail_outline</i><span class="menu-title" data-i18n="Mail">All Customer</span></a>
+        <li class="bold"><a class="waves-effect waves-cyan " href="#"><i class="material-icons">people</i><span class="menu-title" data-i18n="Mail">All Customer</span></a>
         </li>
       
        

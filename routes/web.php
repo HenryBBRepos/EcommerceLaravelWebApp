@@ -25,13 +25,19 @@ Route::get('/product_detail', 'PagesController@product_detail')->name('product_d
 Route::get('/wishlist', 'PagesController@wishlist')->name('wishlist');
 Route::get('/searchlist', 'PagesController@searchlist')->name('searchlist');
 Route::get('/all_product', 'PagesController@all_product')->name('all_product');
+Route::get('/dashboard', 'PagesController@dashboard')->name('dashboard');
 Route::get('/signup', 'PagesController@signup')->name('signup');
 Route::get('/login', 'PagesController@login')->name('login');
+
+
+Route::get('/signup_page', 'Account\AccountController@signup_page')->name('signup');
+Route::post('/signup_page', 'AccountAccountController@signup');
+
+
 
 //Admin
 Route::get('/add_product', 'ProductController@add_product')->name('add_product');
 Route::post('store', 'Admin\ProductController@store')->name('product.store');
 Route::get('/all_product', 'Admin\ProductController@show')->name('all_product');
 Route::get('/{id}', 'ProductController@show')->name('product_detail');
-Route::get('/dashboard', 'Admin\PagesController@dashboard')->name('dashboard');
 

@@ -18,7 +18,7 @@
                               <div class="row">
                                 <div class="col s7 m7">
                                     <i class="material-icons background-round mt-5">add_shopping_cart</i>
-                                    <p>Orders</p>
+                                    <p>Transactions</p>
                                 </div>
                                 <div class="col s5 m5 right-align">
                                     <h5 class="mb-0 white-text">690</h5>
@@ -35,7 +35,7 @@
                               <div class="row">
                                 <div class="col s7 m7">
                                     <i class="material-icons background-round mt-5">perm_identity</i>
-                                    <p>Clients</p>
+                                    <p>Customers</p>
                                 </div>
                                 <div class="col s5 m5 right-align">
                                     <h5 class="mb-0 white-text">1885</h5>
@@ -52,7 +52,7 @@
                               <div class="row">
                                 <div class="col s7 m7">
                                     <i class="material-icons background-round mt-5">timeline</i>
-                                    <p>Sales</p>
+                                    <p>Purchases</p>
                                 </div>
                                 <div class="col s5 m5 right-align">
                                     <h5 class="mb-0 white-text">80%</h5>
@@ -112,7 +112,7 @@
                           <div class="card-content">
                               <h4 class="header m-0">Earning <i class="material-icons right grey-text lighten-3">more_vert</i></h4>
                               <p class="no-margin grey-text lighten-3 medium-small">Mon 15 - Sun 21</p>
-                              <h3 class="header">$899.39 <i class="material-icons deep-orange-text text-accent-2">arrow_upward</i>
+                              <h3 class="header">₵1899.39 <i class="material-icons deep-orange-text text-accent-2">arrow_upward</i>
                               </h3>
                               <canvas id="monthlyEarning" class="" height="150"></canvas>
                               <div class="center-align">
